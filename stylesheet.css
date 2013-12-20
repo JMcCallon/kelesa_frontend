@@ -1,0 +1,168 @@
+	body { 
+		margin: 0; 
+		padding: 0;
+		background-color: white repeat; 
+		text-align: center; }
+	* {
+		margin: 0;
+		padding: 0;
+		vertical-align: center;
+	}
+	#header {
+		background:url(images/topbg.jpg);
+		background-repeat: no-repeat;
+		height:35px;
+		width: 100%;
+		margin: 0;
+		line-height: 35px;}
+	#toppane {
+		background-color:white;
+		height: 70px;
+		width: 100%;
+		margin: 0;
+		line-height: 100px;
+		vertical-align: bottom;}
+	#navimage {
+		background:url(images/mainimage3.jpg);
+		background-repeat: no-repeat;
+		background-position:center;
+		background-color: black;
+		height:400px;
+		width: 100%;
+		margin: 0;
+		text-valign: top;}		
+	#midpane {
+		background-color:white;
+		height:300px;
+		width: 100%;
+		margin: 0;
+		text-valign: bottom;}
+	#howitworks {
+		background-color: #ADD8E6;
+		height:350px;
+		width: 100%;
+		margin: 0;
+		text-valign: top;}
+	#moreinfo {
+		background-color:white;
+		height:630px;
+		width: 100%;
+		margin: 0;
+		text-valign: top;}		
+	#bottompane {
+		background-color:#DDDDDD;
+		height:92px;
+		width: 100%;
+		margin: 0;
+		text-valign: middle;}
+
+	#header p.midtext {text-align: center; font-size: 14px; color: #79ab08; font-family: calibri; font-weight: bold}
+	#header p.righttext {text-align: right; font-size: 14px; color: #FFFFFF; font-family: calibri; font-weight: bold; font-style:italic}
+	#header table {vertical-align: middle; height: 100%}
+	.header A:link {text-decoration: none; font-weight: bold; color: #FFFFFF; font-family: calibri; font-size: 14px}
+	.header A:visited {text-decoration: none; font-weight: bold; color: #FFFFFF; font-family: calibri; font-size: 14px}
+	.header A:active {text-decoration: none; font-weight: bold; color: #FFFFFF; font-family: calibri; font-size: 14px}
+	.header A:hover {text-decoration: underline; font-weight: bold; color: #FFFFFF; font-family: calibri; font-size: 14px}
+
+	#toppane p.lefttext {text-align: left; font-size: 14px; color: #79ab08; font-family: calibri; font-weight: bold;  vertical-align: bottom}
+	#toppane table.panerow {vertical-align: bottom; width: 100%; border: 0; margin: 0; height: 120px; vertical-align: bottom}
+	#toppane table.right1 {align: center; border-style: solid; border-color: #da8f00; width: 100%;}
+	.toppane A:link {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	.toppane A:visited {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	.toppane A:active {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	.toppane A:hover {text-decoration: underline; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+
+	#midpane p.registerlogin {text-align: center; font-size: 18px; color: #79ab08; font-family: calibri; font-weight: bold; vertical-align: top}
+	#midpane p.formtext {text-align: left; font-size: 14px; color: #000000; font-family: calibri; font-weight: bold}
+	#midpane table.center {margin-left: auto; margin-right: auto; width: 100%; border-collapse: collapse}
+	#midpane td {vertical-align: top}
+	#midpane td.right1 {vertical-align: top; background-color: #79ab08; color: #FFFFFF; font-weight: bold; font-size: 14px; text-align: center; font-family: calibri; border-style: solid; border-color: #79ab08}
+	#midpane td.right2 {vertical-align: top; background-color: white; color: #333333; font-size: 14px; text-align: left; font-family: calibri; border-style: solid; border-color: #79ab08}
+	#midpane ul {text-align: justify;  padding: 10px; margin: 10px; font-size: 14px; color: #333333; font-family: calibri; vertical-align: top; font-size: 14px}
+	#midpane li {margin-top:0; margin-bottom:0px;}
+	.midpane A:link {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 18px}
+	.midpane A:visited {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 18px}
+	.midpane A:active {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 18px}
+	.midpane A:hover {text-decoration: underline; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 18px}
+
+	#howitworks p.howheader {text-align: center; font-size: 24px; color: #d98f00; font-family: calibri; font-weight: bold}
+	#howitworks p.userworker {text-align: center; font-size: 14px; color: green; font-family: calibri; font-weight: bold; vertical-align: top}
+	#howitworks p.explain {text-align: center; font-size: 14px; color: #000000; font-family: calibri; vertical-align: top}
+	#howitworks table.center {margin-left: auto; margin-right: auto}
+	#howitworks table.miniheaders {width: 100%; align: center; background-color: #d98f00; border-size: 0; border-collapse: collapse}
+	#howitworks td.miniheaders {width: 100%; align: center; background-color: #d98f00; border-size: 0; border-collapse: collapse; color: #FFFFFF; font-family: calibri; font-size: 21; vertical-align: middle; font-weight: bold; text-align: center;}
+	.howitworks A:link {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	.howitworks A:visited {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	.howitworks A:active {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	.howitworks A:hover {text-decoration: underline; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 14px}
+	
+	#moreinfo p.explainmore {text-align: justify; font-size: 14px; color: #333333; font-family: calibri; vertical-align: top; margin: 5px}
+	#moreinfo p.belowtables {text-align: center; font-size: 14px; color: #333333; font-family: calibri; vertical-align: top}
+	#moreinfo table.center {margin-left: auto; margin-right: auto}
+	#moreinfo table.left1 {align: center; border-style: solid; border-color: #da8f00; width: 100%; border-collapse: collapse}
+	#moreinfo table.mid1 {align: center; border-style: solid; border-color: #da8f00; width: 100%; border-collapse: collapse}
+	#moreinfo table.mid2 {align: center; border-style: solid; border-color: #da8f00; width: 100%; border-collapse: collapse}
+	#moreinfo th {margin-left: auto; margin-right: auto; align: center; background-color: #da8f00; width: 100%; color: #FFFFFF; font-family: calibri; vertical-align: middle}
+	#moreinfo ul.first {text-align: left; padding: 0px; margin: 0px; font-size: 14px; color: #333333; font-family: calibri; vertical-align: top}
+	#moreinfo ul {text-align: justify; padding: 10px; margin: 10px; font-size: 14px; color: #333333; font-family: calibri; vertical-align: top}
+	#moreinfo li {margin-top:0; margin-bottom:0px;}
+	#moreinfo td {vertical-align: top}
+	#moreinfo td.tasks {vertical-align: top; height: 200px}
+	#moreinfo td.map {align: center; height: 226px; background:url(images/bottommap.jpg); background-repeat: no-repeat; background-position: center; background-color: black; vertical-align: top)}
+	#moreinfo td.locations {align: center; height: 226px; background:url(images/locations.jpg); background-repeat: no-repeat; background-position: center; background-color: black; vertical-align: top)}
+	.moreinfo A:link {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 12px}
+	.moreinfo A:visited {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 12px}
+	.moreinfo A:active {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 12px}
+	.moreinfo A:hover {text-decoration: underline; font-weight: bold; color: #AAAAAA; font-family: calibri; font-size: 12px}
+	
+	#bottompane p.footer {text-align: center; font-size: 14px; color: #444444; font-family: calibri; font-weight: bold; vertical-align: top}
+	#bottompane table.spaced {margin-left: auto; margin-right: auto; padding: 10px}
+	.bottompane A:link {text-decoration: none; font-weight: bold; color: #000000; font-family: calibri; font-size: 14px}
+	.bottompane A:visited {text-decoration: none; font-weight: bold; color: #000000; font-family: calibri; font-size: 14px}
+	.bottompane A:active {text-decoration: none; font-weight: bold; color: #000000; font-family: calibri; font-size: 14px}
+	.bottompane A:hover {text-decoration: underline; font-weight: bold; color: #000000; font-family: calibri; font-size: 14px}
+
+	.mysubmit { 
+		-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+		box-shadow:inset 0px 1px 0px 0px #a4e271;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809));
+		background:-moz-linear-gradient(top, #89c403 5%, #77a809 100%);
+		background:-webkit-linear-gradient(top, #89c403 5%, #77a809 100%);
+		background:-o-linear-gradient(top, #89c403 5%, #77a809 100%);
+		background:-ms-linear-gradient(top, #89c403 5%, #77a809 100%);
+		background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809',GradientType=0);
+		background-color:#89c403;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #74b807;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:6px 24px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #528009;
+	}
+	.mysubmit:hover {
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+		background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+		background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+		background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+		background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+		background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
+		background-color:#77a809;
+	}
+	.mysubmit:active {
+		position:relative;
+		top:1px;
+	}
+
+	A:visited {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri}
+	A:active {text-decoration: none; font-weight: bold; color: #AAAAAA; font-family: calibri}
+	A:hover {text-decoration: underline; font-weight: bold; color: #AAAAAA; font-family: calibri}
